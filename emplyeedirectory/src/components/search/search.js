@@ -10,7 +10,7 @@ const SearchName = () => {
       <div className="input-group">
           <div className="input-group-prepend">
             <span className="input-group-text" id="">
-              Search
+              
             </span>
           </div>
           <input
@@ -20,6 +20,7 @@ const SearchName = () => {
           aria-label="Search"
           />
         </div>
+        <button>Search</button>
     </div>
   );
 }
