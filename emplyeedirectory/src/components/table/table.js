@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
-import { useGet } from "../hooks/API.js"
-import "./table.css"
-
+import { useGet } from "../hooks/hooks.js"
+import { EmployeeContext } from 'react-employ-directory\emplyeedirectory\src\components\employee\employee.js';
+import Button from "..\src\components\button\button.js"
 //Check out 20-State/03-Stu_useState
 function Table() {
     // https://randomuser.me/documentation#howto
