@@ -1,5 +1,5 @@
 import {useEffect, useContext} from 'react';
-import {EmployeeContext} from "react-employ-directory\emplyeedirectory\src\components\employee\employee.js"
+import {EmployeeContext} from "../employee/employee"
 import axios from "axios"
 
 export function useGet(url){
