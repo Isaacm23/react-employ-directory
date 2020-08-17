@@ -24,7 +24,7 @@ export function useGet(url){
                 console.log("error ocurred getting info from the API: ", error)
             }   
         }
-        getEmployees()
+        getEmployees() 
     },[])
 
     // used to decide which sort function to trigger
@@ -33,8 +33,8 @@ export function useGet(url){
             case "name":
                 sortByName()
                 break
-            case "age":
-                sortByAge()
+            case "last":
+                sortByLast()
                 break
             default:
                 console.log("sort does not match any cases")
@@ -55,10 +55,14 @@ export function useGet(url){
     }
 
     // sorts the employees based on age.
-    function sortByAge(){
+    function sortByLast(){
         employees.sort(function(a,b){
-            return (a.dob.age - b.dob.age)
-        })
+           if(a.name.last < b.name.last){
+               return -1;
+           }else{
+               return 1;
+           }
+       })
         setDisplayedEmployees([...employees])
     }
 
