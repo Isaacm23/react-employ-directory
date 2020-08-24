@@ -22,5 +22,4 @@ The user should be able to:
   * Filter the users by at least one property.
     - Filter employees by typing in their name
 
-![](public/img/employee.gif.gif)
-
+![](react-employ-directory\emplyeedirectory\public\img\employee.gif.gif)
