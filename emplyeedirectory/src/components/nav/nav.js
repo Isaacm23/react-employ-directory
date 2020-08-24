@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from "./Search.js"
+import Search from "./search.js"
 import "./nav.css"
 
 function Navbar(){
