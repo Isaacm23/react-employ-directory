@@ -22,4 +22,4 @@ The user should be able to:
   * Filter the users by at least one property.
     - Filter employees by typing in their name
 
-![](src/img/employee.gif)
+![](src/img/employee.gif.gif)
